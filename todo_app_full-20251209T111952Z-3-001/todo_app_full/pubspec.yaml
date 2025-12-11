@@ -1,0 +1,28 @@
+name: todo_mvc_complete
+description: A complete To-Do app prototype with MVC, persistence, calendar, categories, priorities and settings.
+publish_to: "none"
+version: 0.0.1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Calendar
+  intl: ^0.19.0
+  table_calendar: ^3.1.3
+
+  # Local storage
+  shared_preferences: ^2.2.3
+  path_provider: ^2.1.3
+  sqflite: ^2.3.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
